@@ -1,0 +1,235 @@
+<!doctypehtml>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+    <title> Portfolio | Allison Driver</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="http://www.fontspace.com/nymphont/caviar-dreams?text=Allison%20Driver">
+    <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="../semantic/dist/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+
+
+       
+    
+    <nav class="navContainer navbar navbar-expand-lg navbar-light bg-light">
+            <img class="navbar-brand logo" src="../images/name2.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls=".navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse navControls"  id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav" href="../home/home.html" style="color:white">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav" href="projectsHome.html" style="color:white">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav" href="../resume/resume.html" style="color:white">Resumé</a>
+            </li>
+          </ul>
+        </div>
+     
+      </nav>
+
+    
+
+    <div class="sideNav">
+            <div   id="sideTextH" class="sideTextH">Project List</div>
+            <div class="sideText S">ShowMaps</div>
+            <div class="sideText A">Cover Art Shuffle Game</div>
+            <div class="sideText G">Eye Candy</div>
+            <div class="sideText T">Train Scheduler</div>
+           
+            
+            
+        </div>
+
+   
+    
+    <div class="mainContainer">
+       
+
+            
+
+
+        
+
+<div class="row wrapper clearfix">
+
+    <figure class="gallery-item projImg S">
+        <a href="#"><img class=" real ui rounded image" src="../images/showmaps.png"></a>
+        <figcaption class="img-title">
+            <h5>ShowMaps</h5>    
+        </figcaption>
+    </figure>
+
+    <figure class="gallery-item projImg A">
+        <img class=" real ui rounded image"  src="../images/coverArtShuffle.png">
+        <figcaption class="img-title">
+            <h5>Cover Art Shuffle Game</h5>    
+        </figcaption>
+    </figure>
+
+</div>
+
+
+<div class="row wrapper clearfix">
+
+        <figure class="gallery-item projImg G">
+            <a href="#"><img class=" real ui rounded image" src="../images/EyeCandy.png"></a>
+            <figcaption class="img-title">
+                <h5>Eye Candy</h5>    
+            </figcaption>
+        </figure>
+    
+        <figure class="gallery-item projImg T">
+            <img class="real ui rounded image"  src="../images/train-scheduler.png">
+            <figcaption class="img-title">
+                <h5>Train Scheduler</h5>    
+            </figcaption>
+        </figure>
+    
+    </div>
+
+
+
+    </div>
+
+    <div class="showMapsContainer">
+        <h2>ShowMaps</h2>
+        <a href=""><img class="projectImgMain" src="../images/showmapsMain.png"></a>
+        <p class="projectMainText">Show Maps is an innovative way for users to see what shows are happening near them in the Austin area, without having to cross reference each show individually into google maps. It is meant to be viewed on mobile. This is a huge time saver! When a user opens the website, the app will center the map on their location, and set a blue marker with an info window that says "Your Location". It will also pull shows from the Mlab database that are happening for that day by cross referencing the day of the show with today. It will then set markers for all shows in red on the map. When any of the markers for a show is clicked, the info window will show the venue name, the artist playing, and the time of the show.
+            <br></br>
+                This app uses Mongo DB with MLab, Mongoose, Express, React, Node, Axios, Google Maps API with Geolocation, momentjs, and the google-maps-react npm package to help integrate the Google Maps API with React</p>
+        <div class="projLinks mapsLinks">
+          
+                <div class="ui purple button">
+                        <a href="https://mysterious-depths-46018.herokuapp.com/">
+                      <i class="git icon large"></i> See the Website
+                      </a>
+                    
+                </div> 
+               
+
+                <div class="ui blue button">
+                    <a href="#">
+                  <i class="github square icon large"></i> The code for this site is available on request
+                  </a>
+                 
+                </div>
+           
+         </div>
+    </div>
+
+    <div class="albumContainer">
+        <h2>Album Cover Shuffle Game</h2>
+        <a  href=""><img class="projectImgMain" src="../images/albumcoverMain.png"></a>
+        <p class="projectMainText">This React web game uses images stored in a JSON file and shuffles them in random order everytime one of the images is clicked. If you click the same image twice, then you will be alerted and the score will be reset. This game also keeps the highest score that you have achieved overall while you are still on the same page. This game was created using create-react-app.  </p>
+        <div class="projLinks albumLinks">
+                <div class="ui purple button medium">
+                        <a href="https://intense-hamlet-79255.herokuapp.com/">
+                      <img  src="../images/heroku.png"> See the Website
+                      </a>
+                     
+                    </div>
+    
+                <div class="ui blue button">
+                        <a href="https://github.com/adrive22/AlbumCoverShuffle">
+                      <i class="github square icon large"></i> See the Code
+                      </a>
+                     
+                    </div>
+               </div>
+    </div>
+
+    <div class="giphyContainer">
+        <h2>Eye Candy</h2>
+        <a  href=""><img class="projectImgMain"src="../images/eyeCandyMain.png"></a>
+        <p class="projectMainText">This web app uses javascript, Jquery, AJAX, and the Giphy API, coupled with Semantic-UI styling to bring you an active entertaining world of giphs of your choosing. You can add buttons to search the Giphy API, and you can start and stop the giphs themselves. The page reloads after refreshing or leaving the site. </p>
+        <div class="projLinks giphyLinks">
+          
+                <div class="ui purple button">
+                        <a href="https://adrive22.github.io/EyeCandy/">
+                      <i class="git icon large"></i> See the Website
+                      </a>
+                    
+                  </div>
+               
+
+                <div class="ui blue button">
+                    <a href="https://github.com/adrive22/EyeCandy">
+                  <i class="github square icon large"></i> See the Code
+                  </a>
+                 
+                </div>
+           </div>
+          
+    </div> 
+    
+
+    <div class="trainContainer">
+        <h2>Train Scheduler</h2>
+        <a  href=""><img class="projectImgMain" src="../images/trainMain.png"></a>
+        <p class="projectMainText">This web app utilizes AJAX to add and call on information in Firebase. Users can add train information into the fields, and the math will be completed for them to tell when the next train will arrive and the how many minutes you have left until then. All of the trains inputed will remain even if a user leaves the site.</p>
+        </p>
+        <div class="projLinks trainLinks">
+          
+                <div class="ui purple button">
+                        <a href="https://adrive22.github.io/Train-Schedule/">
+                      <i class="git icon large"></i> See the Website
+                      </a>
+                  </div>
+               
+
+                <div class="ui blue button">
+                    <a href="https://github.com/adrive22/Train-Schedule">
+                  <i class="github square icon large"></i> See the Code
+                  </a>
+                </div>
+           </div>
+    </div> 
+
+
+    
+
+    <div class="bottomNav">
+            <div class="icons">
+                <a class="ui linkedin icon big iconImgOne" href="https://www.linkedin.com/in/allison-driver/">
+                    <i class="linkedin in icon link huge"></i>
+                 </a>
+                 <a class="ui git square icon iconImgTwo" href="https://github.com/adrive22">
+                    <i class="github square icon link huge"></i>
+                 </a>
+                 <p class="contact phone">ph. 931.224.5259</p>
+                 <p class="contact email">allisondriver04@gmail.com</p>
+            </div>
+        </div>
+
+</body>
+
+
+
+</html>

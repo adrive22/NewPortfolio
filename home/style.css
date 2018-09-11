@@ -1,0 +1,491 @@
+/*Desktop*/
+.navContainer {
+    background-color: #101010 !important;
+    height: 12%;
+    position: fixed;
+    width: 100%;
+    top: 1;
+  }
+  
+  .navControls {
+    margin-right: 50px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .navbar-toggler {
+    background-color: white !important;
+    margin-right: 100px;
+  }
+  
+  .logo {
+    margin-top: 0;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+  }
+  
+  .nav {
+    font-family: "Abel", sans-serif;
+    width: 100%;
+    margin-right: 20px;
+    background-color: #101010;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  .bottomNav {
+    background-color: #101010;
+    height: 12%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .icons {
+    margin-top: 20px;
+  }
+  
+  .iconImgOne {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+  }
+  
+  .contact {
+    color: white;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+    font-family: "Abel", sans-serif;
+    font-size: 120%;
+  }
+  
+  .phone {
+    position: relative;
+    float: left;
+  }
+  
+  .email {
+    position: relative;
+    float: right;
+  }
+  
+  .iconImgTwo {
+    position: relative;
+    float: right;
+    margin-right: 5%;
+  }
+  
+  .btn.btn-light {
+    margin-top: 35%;
+    width: 10%;
+    margin-left: 55%;
+    margin-right: 45%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .mainContainer {
+    font-family: "Abel", sans-serif;
+    position: absolute;
+    margin-top: 12%;
+    z-index: -1;
+    width: 100%;
+  }
+  
+  img {
+    position: absolute;
+    float: left;
+    margin-left: 10%;
+  }
+  
+  .text {
+    width: 60%;
+    margin-right: 10%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3%;
+    position: absolute;
+    float: right;
+    background-color: rgba(242, 241, 241, 0.5);
+  }
+  
+  /*Ipad Portrait View*/
+  @media only all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .text {
+      width: 50%;
+      margin-top: 30%;
+      margin-left: 45%;
+    }
+  
+    .btn.btn-light {
+      width: 140px;
+      margin-top: 80%;
+      margin-left: 63%;
+    }
+  
+    .contact {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 3%;
+      font-size: 120%;
+    }
+  
+    .portrait {
+      margin-top: 32%;
+    }
+  
+    .icons {
+      margin-top: 30px;
+    }
+  }
+  /*iPad landscape view*/
+  @media only all and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .portrait {
+      margin-top: 9%;
+    }
+  
+    .text {
+      width: 50%;
+      margin-top: 10%;
+      margin-left: 40%;
+    }
+  
+    .btn.btn-light {
+      width: 140px;
+      margin-left: 59%;
+      margin-top: 50%;
+    }
+  
+    .contact {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      font-size: 120%;
+    }
+  
+    .icons {
+      margin-top: 20px;
+    }
+  }
+  /*iphoneX portrait view*/
+  @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .portrait {
+      width: 140px;
+      height: 250px;
+      margin-top: 100%;
+    }
+  
+    .navControls {
+      font-size: 20px;
+    }
+  
+    .logo {
+      width: 150px;
+      height: 75px;
+      margin-right: 5%;
+    }
+  
+    .text {
+      font-size: 15px;
+      margin-top: 25%;
+      width: 70%;
+      margin-left: 15%;
+    }
+  
+    .navbar-toggler {
+      margin-right: 40px;
+    }
+  
+    .btn.btn-light {
+      width: 140px;
+      margin-left: 56%;
+      margin-top: 140%;
+      font-size: 20px;
+    }
+  
+    .contact {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+  
+    .phone,
+  .email {
+      font-size: 15px;
+      margin-top: -30px;
+      margin-bottom: 30px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .icons {
+      margin-top: 2%;
+    }
+  }
+  /*iphoneX landscape view*/
+  @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .navContainer {
+      height: 15%;
+    }
+  
+    .bottomNav {
+      height: 15%;
+    }
+  
+    .icons {
+      margin-top: 0px;
+    }
+  
+    .portrait {
+      margin-top: 0%;
+      width: 125px;
+      height: 200px;
+      margin-bottom:100%;
+    }
+  
+    .text {
+      margin-top: 0%;
+      font-size: 17px;
+    }
+  
+    .btn.btn-light {
+      width: 140px;
+      margin-top: 22%;
+    }
+  
+    .logo {
+      width: 100px;
+      height: 50px;
+    }
+  }
+  /*iphone 6,7,8 portrait view*/
+  @media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
+    .portrait {
+      width: 140px;
+      height: 250px;
+      margin-top: 100%;
+      margin-bottom: 100%;
+    }
+  
+    .navControls {
+      font-size: 20px;
+    }
+  
+    .bottomNav {
+      margin-top: 20%;
+    }
+  
+    .logo {
+      width: 150px;
+      height: 75px;
+      margin-right: 5%;
+    }
+  
+    .text {
+      font-size: 15px;
+      margin-top: 25%;
+      width: 70%;
+      margin-left: 15%;
+    }
+  
+    .navbar-toggler {
+      margin-right: 40px;
+    }
+  
+    .btn.btn-light {
+      width: 42%;
+      margin-left: 53%;
+      margin-top: 140%;
+      font-size: 20px;
+      margin-bottom: 100%;
+    }
+  
+    .contact {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+  
+    .phone,
+  .email {
+      font-size: 15px;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .icons {
+      margin-top: 2%;
+    }
+  }
+  /*iphone 6,7,8 landscape view*/
+  @media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+    .navContainer {
+      height: 15%;
+    }
+  
+    .bottomNav {
+      height: 15%;
+    }
+  
+    .icons {
+      margin-top: 0px;
+    }
+  
+    .portrait {
+      margin-top: 0%;
+      width: 125px;
+      height: 200px;
+    }
+  
+    .text {
+      margin-top: 0%;
+      font-size: 17px;
+    }
+  
+    .btn.btn-light {
+      width: 140px;
+      margin-top: 24%;
+      margin-left: 52%;
+    }
+  
+    .logo {
+      width: 100px;
+      height: 50px;
+    }
+
+
+    .contact {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+  
+    .phone,
+  .email {
+      font-size: 15px;
+      margin-top: -100px;
+      margin-bottom: 0px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .icons {
+      margin-top: 2%;
+    }
+  }
+  /*iphone 6,7,8 plus landscape view*/
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    .navContainer {
+      height: 15%;
+    }
+  
+    .bottomNav {
+      height: 15%;
+    }
+  
+    .icons {
+      margin-top: 0px;
+    }
+  
+    .portrait {
+      margin-top: 0%;
+      width: 125px;
+      height: 200px;
+    }
+  
+    .text {
+      margin-top: 0%;
+      font-size: 17px;
+    }
+  
+    .btn.btn-light {
+      width: 140px;
+      margin-top: 25%;
+      margin-left: 49%;
+    }
+  
+    .logo {
+      width: 100px;
+      height: 50px;
+    }
+  
+    .contact {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+  
+    .phone,
+  .email {
+      font-size: 15px;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  /*screen smaller than 374px*/
+  @media only screen and (max-device-width: 374px) {
+    .portrait {
+      width: 140px;
+      height: 250px;
+      margin-top: 100%;
+      margin-bottom:100%;
+    }
+  
+    .navControls {
+      font-size: 20px;
+    }
+  
+    .logo {
+      width: 150px;
+      height: 75px;
+      margin-right: 5%;
+    }
+  
+    .text {
+      font-size: 15px;
+      margin-top: 25%;
+      width: 70%;
+      margin-left: 15%;
+    }
+  
+    .navbar-toggler {
+      margin-right: 40px;
+    }
+  
+    .btn.btn-light {
+      margin-left: 56%;
+      margin-top: 140%;
+      font-size: 20px;
+      margin-bottom: 100%;
+    }
+  
+    .contact {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+  
+    .phone,
+  .email {
+      font-size: 15px;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .icons {
+      margin-top: 2%;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  

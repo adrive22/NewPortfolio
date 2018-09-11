@@ -1,0 +1,661 @@
+
+
+
+ @media only screen and (min-device-height:900px) and (max-device-width:1700px) {
+
+.landingLogo{
+    opacity:0;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top: 20%;
+}
+
+
+    .text {
+        display: none;
+        font-size: 30px;
+    }
+   
+    .nameOne .nameTwo .nameThree {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        left: 590px;
+        top: 160px;
+        position: absolute;
+        color: white;
+        size: 75px;
+    }
+   
+   
+   
+   
+    .lineOne {
+        width: 0px;
+        height: 1px;
+        border-bottom: 10px solid white;
+        position: absolute;
+        margin-left: 36%;
+        margin-top: 300px;
+   
+    }
+   
+   
+   
+    .lineTwo {
+   
+        width: 1px;
+        height: 0x;
+        border-right: 10px solid white;
+        position: absolute;
+        margin-left: 39%;
+        margin-top: 190px;
+   
+   
+    }
+   
+    body {
+        background-color: black !important;
+    }
+   
+   
+    .nameOne,
+    .nameTwo,
+    .nameThree {
+        font-weight: bold;
+        position: absolute;
+        color: white !important;
+        font-size: 125px;
+        font-family: 'Roboto', sans-serif, bold;
+        display: none;
+   
+   
+    }
+   
+    .nameOne {
+        margin-left: 32%;
+        margin-top: 170px;
+   
+   
+    }
+   
+    .nameTwo {
+        margin-left: 39%;
+        margin-top: 170px;
+    }
+   
+    .nameThree {
+        margin-left: 39%;
+        margin-top: 300px;
+    }
+}
+
+
+.text {
+    display: none;
+    font-size: 30px;
+}
+
+.nameOne .nameTwo .nameThree {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    left: 590px;
+    top: 160px;
+    position: absolute;
+    color: white;
+    size: 75px;
+}
+
+
+
+
+.lineOne {
+    width: 0px;
+    height: 1px;
+    border-bottom: 10px solid white;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 300px;
+
+}
+
+
+
+.lineTwo {
+
+    width: 1px;
+    height: 0x;
+    border-right: 10px solid white;
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 190px;
+
+
+}
+
+body {
+    background-color: black !important;
+}
+
+
+.nameOne,
+.nameTwo,
+.nameThree {
+    font-weight: bold;
+    position: absolute;
+    color: white !important;
+    font-size: 125px;
+    font-family: 'Roboto', sans-serif, bold;
+    display: none;
+
+
+}
+
+.nameOne {
+    margin-left: 35%;
+    margin-top: 170px;
+
+
+}
+
+.nameTwo {
+    margin-left: 42%;
+    margin-top: 170px;
+}
+
+.nameThree {
+    margin-left: 42%;
+    margin-top: 300px;
+}
+
+
+
+
+@media only screen and (min-device-height:768px) and (max-device-width:1380px) {
+
+
+    .landingLogo{
+        opacity:0;
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        margin-top: 20%;
+    }
+
+    .text {
+        display: none;
+        font-size: 30px;
+    }
+   
+    .nameOne .nameTwo .nameThree {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        left: 590px;
+        top: 160px;
+        position: absolute;
+        color: white;
+        size: 75px;
+    }
+   
+   
+   
+   
+    .lineOne {
+        width: 0px;
+        height: 1px;
+        border-bottom: 10px solid white;
+        position: absolute;
+        margin-left: 29%;
+        margin-top: 300px;
+   
+    }
+   
+   
+   
+    .lineTwo {
+   
+        width: 1px;
+        height: 0x;
+        border-right: 10px solid white;
+        position: absolute;
+        margin-left: 40.5%;
+        margin-top: 190px;
+   
+   
+    }
+   
+    body {
+        background-color: black !important;
+    }
+   
+   
+    .nameOne,
+    .nameTwo,
+    .nameThree {
+        font-weight: bold;
+        position: absolute;
+        color: white !important;
+        font-size: 125px;
+        font-family: 'Roboto', sans-serif, bold;
+        display: none;
+   
+   
+    }
+   
+    .nameOne {
+        margin-left: 33%;
+        margin-top: 170px;
+   
+   
+    }
+   
+    .nameTwo {
+        margin-left: 42%;
+        margin-top: 170px;
+    }
+   
+    .nameThree {
+        margin-left: 42%;
+        margin-top: 300px;
+    }
+}
+
+
+
+ @media only screen and (min-device-height:768px) and (max-device-width: 1024px) {
+
+
+    .landingLogo{
+        opacity:0;
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        margin-top: 20%;
+    }
+
+    .text {
+        display: none;
+        font-size: 30px;
+    }
+   
+    .nameOne .nameTwo .nameThree {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        left: 590px;
+        top: 160px;
+        position: absolute;
+        color: white;
+        size: 75px;
+    }
+   
+   
+   
+   
+    .lineOne {
+        width: 0px;
+        height: 1px;
+        border-bottom: 10px solid white;
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 300px;
+   
+    }
+   
+   
+   
+    .lineTwo {
+   
+        width: 1px;
+        height: 0x;
+        border-right: 10px solid white;
+        position: absolute;
+        margin-left: 41%;
+        margin-top: 190px;
+   
+   
+    }
+   
+    body {
+        background-color: black !important;
+    }
+   
+   
+    .nameOne,
+    .nameTwo,
+    .nameThree {
+        font-weight: bold;
+        position: absolute;
+        color: white !important;
+        font-size: 125px;
+        font-family: 'Roboto', sans-serif, bold;
+        display: none;
+   
+   
+    }
+   
+    .nameOne {
+        margin-left: 32%;
+        margin-top: 170px;
+   
+   
+    }
+   
+    .nameTwo {
+        margin-left: 43%;
+        margin-top: 170px;
+    }
+   
+    .nameThree {
+        margin-left: 43%;
+        margin-top: 300px;
+    }
+}
+
+
+
+
+
+
+ /*Ipad Portrait*/
+
+  @media only all and (min-device-width : 768px) and (max-device-height : 1024px) and (orientation : portrait) {
+
+
+    .landingLogo{
+        opacity:0;
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        margin-top: 20%;
+    }
+     .lineTwo {
+         margin-left: 36%;
+         margin-top: 373px;
+     }
+
+     .lineOne {
+         margin-left: 20%;
+         margin-top: 63%;
+     }
+
+     .nameOne {
+         margin-left: 24%;
+         margin-top: 46%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .nameTwo {
+         margin-left: 38%;
+         margin-top: 46%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .nameThree {
+         margin-left: 38%;
+         margin-top: 64%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+
+ }
+
+
+
+
+ /*Ipad Landscape*/
+ /*@media only all and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+     .lineTwo {
+         margin-left: 41%;
+         margin-top: 235px;
+     }
+     .lineOne {
+         margin-left: 28%;
+         margin-top: 34%;
+     }
+     .nameOne {
+         margin-left: 32%;
+         margin-top: 21%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+     .nameTwo {
+         margin-left: 43%;
+         margin-top: 21%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+     .nameThree {
+         margin-left: 43%;
+         margin-top: 35%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+ } */
+
+
+
+
+ /*iphoneX landscape*/
+
+
+ @media only screen and (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+
+    .landingLogo{
+        opacity:0;
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        margin-top: 20%;
+    }
+
+     .nameOne,
+     .nameTwo,
+     .nameThree {
+         font-size: 100px;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .lineTwo {
+         margin-left: 39%;
+         margin-top: 83px;
+         border-right: 7px solid white;
+     }
+
+     .lineOne {
+         margin-left: 26%;
+         margin-top: 21%;
+         border-bottom: 7px solid white;
+
+     }
+
+     .nameOne {
+         margin-left: 30%;
+         margin-top: 8%;
+         font-family: 'Roboto', sans-serif, bold;
+
+
+     }
+
+     .nameTwo {
+         margin-left: 41%;
+         margin-top: 8%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .nameThree {
+         margin-left: 41%;
+         margin-top: 21%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+
+
+ }
+
+
+
+ /*iphone 6,7,8 portrait*/
+
+ @media only screen and (min-device-height : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+
+
+    .landingLogo{
+        opacity:0;
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        margin-top: 20%;
+    }
+
+     .nameOne,
+     .nameTwo,
+     .nameThree {
+         font-family: 'Roboto', sans-serif, bold;
+         font-size: 65px;
+
+     }
+
+     .lineTwo {
+         margin-left: 33%;
+         margin-top: 205px;
+         border-right: 6px solid white;
+     }
+
+     .lineOne {
+         margin-left: 15%;
+         margin-top: 70%;
+         border-bottom: 6px solid white;
+     }
+
+     .nameOne {
+         margin-left: 21%;
+         margin-top: 52%;
+         font-family: 'Roboto', sans-serif, bold;
+
+     }
+
+     .nameTwo {
+         margin-left: 36%;
+         margin-top: 52%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .nameThree {
+         margin-left: 36%;
+         margin-top: 70%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+ }
+
+
+
+
+ /*iphone 6,7,8 landscape*/
+
+ @media only screen and (min-device-height : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+
+
+    .landingLogo{
+        opacity:0;
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        margin-top: 20%;
+    }
+
+     .nameOne,
+     .nameTwo,
+     .nameThree {
+         font-size: 103px;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .lineTwo {
+         margin-left: 35%;
+         margin-top: 60px;
+         border-right: 8px solid white;
+     }
+
+     .lineOne {
+         margin-left: 21%;
+         margin-top: 23%;
+         border-bottom: 8px solid white;
+     }
+
+     .nameOne {
+         margin-left: 23%;
+         margin-top: 6.5%;
+         font-family: 'Roboto', sans-serif, bold;
+
+     }
+
+     .nameTwo {
+         margin-left: 38%;
+         margin-top: 6.5%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .nameThree {
+         margin-left: 38%;
+         margin-top: 23%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+
+
+ }
+
+
+
+
+ 
+
+
+ @media only screen and (min-device-width:1px) and (max-device-width:500px) {
+.landingLogo{
+    opacity:0;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top: 60%;
+}
+
+     .nameOne,
+     .nameTwo,
+     .nameThree {
+         font-family: 'Roboto', sans-serif, bold;
+         font-size: 64px;
+
+     }
+
+     .lineTwo {
+         margin-left: 33%;
+         margin-top: 55%;
+         border-right: 6px solid white;
+     }
+
+     .lineOne {
+         margin-left: 15%;
+         margin-top: 70%;
+         border-bottom: 6px solid white;
+     }
+
+     .nameOne {
+         margin-left: 21%;
+         margin-top: 52.5%;
+         font-family: 'Roboto', sans-serif, bold;
+
+     }
+
+     .nameTwo {
+         margin-left: 36%;
+         margin-top: 52.5%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+     .nameThree {
+         margin-left: 36%;
+         margin-top: 70%;
+         font-family: 'Roboto', sans-serif, bold;
+     }
+
+ }
+
